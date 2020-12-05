@@ -3,8 +3,17 @@ Project 5 for DSI-824
 
 Team - Crash Dummies - Reggie DePiero, Apratim Biswas, and Christopher Villafuerte
 
-## Problem Statment:
-Identify high risk factors within NYC traffic. Create a map of risks: Geographic / Time This map of risk is to be used by first responders to navigate the city during motor Vehicle crashes, natural disaster, and emergencies. This map of risk is to also be used by city planers to improve traffic performance.
+## Goal:
+In 2018 alone, there were 228,047 car accidents in New York City [[1]]("https://www.autoinsurancecenter.com/traffic-accidents-in-new-york-city.html"). The goal of the project is to identify high risk factors within NYC traffic. The final deliverable is a report that:
+1. Studies the contributing factors and pre-condition.
+2. Examines vehicular collisions data as a time series and build a model to predict number of crashes, and 
+3. Create a map of risks, both: spatial and temporal. 
+
+The motivating factors for creating such a map are:
+1. first responders can use it to navigate the city during motor Vehicle crashes, natural disaster, and emergencies; and,
+2. it be used by city planers to improve traffic performance and make the roads safer.
+
+In our time-series model, we focused on Lincoln tunnel and its surrounding areas. This is because the tunnel serves as one of the major arteries that feeds traffic from New jersey. 
 
 ## Data
 We accuirred data from NYC cityofnewyork.us
